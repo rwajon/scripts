@@ -18,7 +18,7 @@ while [ $# -gt 0 ]; do
   shift
 done
 
-name=${name-"app"}
+name=${name-"myapp"}
 region=${region-"eu-central-1"}
 
 aws eks --region $region update-kubeconfig --name $name
