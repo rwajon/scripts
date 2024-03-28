@@ -5,7 +5,7 @@
 # kind: ClusterConfig
 
 # metadata:
-#   name: my-app
+#   name: myapp
 #   region: eu-central-1
 
 # vpc:
