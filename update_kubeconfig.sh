@@ -18,7 +18,7 @@ while [ $# -gt 0 ]; do
   shift
 done
 
-name=${name-"bitlipa"}
+name=${name-"app"}
 region=${region-"eu-central-1"}
 
 aws eks --region $region update-kubeconfig --name $name
