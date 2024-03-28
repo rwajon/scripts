@@ -5,7 +5,7 @@
 # kind: ClusterConfig
 
 # metadata:
-#   name: bitlipa
+#   name: my-app
 #   region: eu-central-1
 
 # vpc:
