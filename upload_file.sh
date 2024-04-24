@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# uplod file to server(s)
-# --files: file(s) to upload. eg.: --file="file1, file2"
+# upload file to server(s)
+# --file: file(s) to upload. eg.: --file="file1, file2"
 # --user: remote server user. eg.: --user=admin
 # --host: server(s) where to upload files. eg.: --host="10.0.0.1, 10.0.0.2"
 # --path: where to upload files. eg.: --path=/mydir (optional)
 # --ssk_key: private ssh key eg.: --path=~/.ssh/id_rsa (optional)
+# eg.: ./upload_file.sh --file="file1.txt" --user=admin --host=10.0.0.1 --ssh_key=~/.ssh/id_rsa
 
 while [ $# -gt 0 ]; do
   case "$1" in
