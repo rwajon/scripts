@@ -24,7 +24,7 @@ while [ $# -gt 0 ]; do
     path="${1#*=}"
     ;;
   --delete_remote_dir=*)
-  delete_remote_dir="${1#*=}"
+    delete_remote_dir="${1#*=}"
     ;;
   --ssh_key=*)
     ssh_key="${1#*=}"
